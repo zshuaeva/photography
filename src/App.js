@@ -1,8 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import PhotoGrid from './photogrid';
 
 function App() {
   return (
+    <>
+    <div className="PhotoGrid">
+      <PhotoGrid />
+    </div>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +24,7 @@ function App() {
         </a>
       </header>
     </div>
+    </>
   );
 }
 
