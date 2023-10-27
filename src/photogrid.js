@@ -8,8 +8,12 @@ function PhotoGrid() {
   //process.env.REACT_APP_API_KEY
 return(
   <>
-    <div className="photos">
-      <img alt="api call"src='https://res.cloudinary.com/dpp71t8ww/image/upload/v1698344122/m4.jpg' />
+    <div className="flex-container">
+    <div className="box photo">PhotoBox</div>
+      <div className="wrapper">
+        <div className="box description">A BMW M4 in Sakhir Orange</div>
+    <div className="box date">Date Taken: 01-01-2023</div>
+    </div>
     </div>
   </>
 )

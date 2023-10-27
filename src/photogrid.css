@@ -1,4 +1,32 @@
-.photos{
-  max-width: 100px;
-  background-color: blue;
+
+body {
+  background: powderblue ;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+.wrapper{
+  display: flex;
+  max-width: 200px;
+}
+.box {
+width: 100px;
+}
+
+.photo {
+  background: pink;
+  height: 250px;
+  width: 200px;
+}
+
+.description {
+  background: green;
+}
+
+.date {
+  background: blue;
 }
