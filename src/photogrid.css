@@ -1,32 +1,49 @@
 
 body {
-  background: powderblue ;
+  background: black ;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .flex-container {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  width: 1300px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-evenly;
 }
 
 .wrapper{
   display: flex;
-  max-width: 200px;
+  max-width: 300px;
+
 }
 .box {
-width: 100px;
+width: 150px;
+
 }
 
 .photo {
-  background: pink;
-  height: 250px;
-  width: 200px;
+  max-height: 375px;
+  max-width: 300px;
+}
+
+.img {
+  max-height: 375px;
+  max-width: 300px;
 }
 
 .description {
-  background: green;
+  padding-top: 5px;
+  padding-left: 2px;
+  background: rgb(226, 231, 195);
+  max-height: 50px;
 }
 
 .date {
-  background: blue;
+  padding-top: 5px;
+  background: rgb(84, 84, 164);
+  text-align: center;
+  max-height: 50px;
 }

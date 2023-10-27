@@ -9,11 +9,18 @@ function PhotoGrid() {
 return(
   <>
     <div className="flex-container">
-    <div className="box photo">PhotoBox</div>
-      <div className="wrapper">
-        <div className="box description">A BMW M4 in Sakhir Orange</div>
-    <div className="box date">Date Taken: 01-01-2023</div>
+    <div className="box photo">
+      <img className="img" src='https://res.cloudinary.com/dpp71t8ww/image/upload/v1698442467/sakhir_heodkr.png' />
     </div>
+      <div className="wrapper">
+        <div className="box description"> Description:
+          <p>A BMW M4 in Sakhir Orange</p>
+          </div>
+    <div className="box date">Date Added:
+      <p>01-01-2023</p>
+      </div>
+    </div>
+
     </div>
   </>
 )
