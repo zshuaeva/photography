@@ -10,7 +10,7 @@ return(
   <>
     <div className="flex-container">
     <div className="box photo">
-      <img className="img" src='https://res.cloudinary.com/dpp71t8ww/image/upload/v1698442467/sakhir_heodkr.png' />
+      <img className="img" alt="photography" src='https://res.cloudinary.com/dpp71t8ww/image/upload/v1698442467/sakhir_heodkr.png' />
     </div>
       <div className="wrapper">
         <div className="box description"> Description:

@@ -1,17 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import PhotoGrid from './photogrid';
+
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PhotoGrid from "./photogrid";
+import Nav from "./Nav";
+
 
 function App() {
   return (
-    <>
-    <div className="PhotoGrid">
-      <PhotoGrid />
-    </div>
-    <div className="App">
-
-    </div>
-    </>
+    <Router>
+      <div>
+        <Nav />
+        <Routes>
+          <Route path="/photogrid" element={<PhotoGrid />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
