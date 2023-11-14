@@ -1,6 +1,6 @@
 import React from 'react';
 import {Cloudinary} from "@cloudinary/url-gen";
-import './photogrid.css'
+import './styles.css'
 
 function PhotoGrid() {
   const cld = new Cloudinary({cloud: {cloudName: 'dpp71t8ww'}});
