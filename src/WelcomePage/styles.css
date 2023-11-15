@@ -1,7 +1,8 @@
-.welcome-splash{
-  display: grid;
-  color: red;
-  margin-left: 20px;
+.welcome-splash {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  height: 100%
+  height: 25vh;
+  color: red;
+  margin-top: 150px;
 }
