@@ -6,7 +6,10 @@ const WelcomePage = () => {
   return(
     <>
     <div className="welcome-splash">
+      <div className="welcome-inside">
       { str }
+
+      </div>
     </div>
     </>
   )
