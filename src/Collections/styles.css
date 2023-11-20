@@ -1,0 +1,51 @@
+
+body {
+  background: black ;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.collection-flex-container {
+  margin-top: 150px;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.collection-wrapper{
+  display: flex;
+  max-width: 300px;
+  margin-left: 150px;
+
+}
+.collection-box {
+  width: 150px;
+
+}
+
+.collection-photo {
+  max-height: 375px;
+  max-width: 300px;
+}
+
+.collection-img {
+  max-height: 375px;
+  max-width: 300px;
+}
+
+.collection-description {
+  padding-top: 5px;
+  padding-left: 2px;
+  background: rgb(226, 231, 195);
+  max-height: 50px;
+}
+
+.collection-date {
+  padding-top: 5px;
+  background: rgb(84, 84, 164);
+  text-align: center;
+  max-height: 50px;
+}

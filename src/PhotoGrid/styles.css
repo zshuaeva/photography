@@ -5,19 +5,19 @@ body {
 }
 
 .flex-container {
-  margin-top: 150px;
+  margin-top: 10vh;
   height: 25vh;
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   align-items: center;
+  padding-right: 20ch;
 }
 
 .wrapper{
   display: flex;
-  max-width: 300px;
+  max-width: 350px;
   margin-left: 150px;
 
 }
@@ -39,12 +39,14 @@ body {
 .description {
   padding-top: 5px;
   padding-left: 2px;
+  padding-bottom: 5px;
   background: rgb(226, 231, 195);
   max-height: 50px;
 }
 
 .date {
   padding-top: 5px;
+  padding-bottom: 5px;
   background: rgb(84, 84, 164);
   text-align: center;
   max-height: 50px;
