@@ -5,11 +5,11 @@ import "./styles.css";
 
 function Nav() {
   return (
-    <nav>
+    <nav className="nav-main">
             <NavLink
         to="/"
         activeClassName="active"
-        className="navbar"
+        className="navbar-home"
       >
         Home
       </NavLink>
