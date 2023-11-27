@@ -4,19 +4,20 @@
   align-items: center;
   height: 25vh;
   color: rgb(198, 195, 172);
-  font-size: large;
+  font-size: 25vh;
   font-weight: bold;
   margin-top: 150px;
   font-family:Arial, Helvetica, sans-serif;
-
+  opacity: .4;
   outline-width: 20px ;
   border-radius: 20px;
 
 }
 
 .welcome-inside{
-  outline: 5px dotted rgb(150, 150, 95);
+  outline: 20px dotted rgb(150, 150, 95);
   border-radius: 15px;
   padding: 20px;
+  margin-bottom: 20px;
   opacity: .5;
 }
